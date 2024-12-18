@@ -1,0 +1,33 @@
+*{
+    height: 100%;
+    margin:0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.parallax-section{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#section1{
+    background-image: url('andy-holmes-LUpDjlJv4_c-unsplash.jpg');
+}
+#section2{
+    background-image: url('tree-736885_640.jpg');
+}
+.content-section{
+    background-color: rgb(241, 120, 120);
+    padding: 20px;
+    text-align: center;
+}
+.content-section p{
+    margin: 0 auto;
+    width: 80%;
+    font-size: 1.2em;
+}
